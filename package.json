@@ -11,7 +11,7 @@
   "license": "ISC",
   "workspaces": [
     "packages/ui-components",
-    "packages/eslint-rules",
-    "packages/app"
+    "packages/app",
+    "packages/eslint-rules"
   ]
 }

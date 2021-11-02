@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "ui-components";
+import { Button } from "@company/ui-components";
 import logo from "./logo.svg";
 import "./App.css";
 
