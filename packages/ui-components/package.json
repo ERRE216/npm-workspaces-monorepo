@@ -1,0 +1,50 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist",
+    "Readme.md"
+  ],
+  "types": "dist/index.d.ts",
+  "description": "",
+  "scripts": {
+    "start": "npm run build",
+    "start:dev": "npm run build:watch",
+    "build": "rollup --config rollup.config.js",
+    "build:watch": "rollup --config rollup.config.js -w",
+    "storybook": "start-storybook -p 6006 --docs",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.33",
+    "@types/styled-components": "^5.1.15",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.3.1",
+    "postcss": "^8.3.11",
+    "rollup": "^2.58.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  }
+}
