@@ -24,7 +24,7 @@ This project is a `react` monorepo. It packs some useful packages that would hel
 
 To run any of the commands declared in the speciic `package.json` of the workspace.
 
-### `npm run <command> -w`
+### `npm run <command> -w --if-present`
 
 To run the specified command in all the workspaces. If the workspace does not have the command its ignored.
 
